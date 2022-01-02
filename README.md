@@ -37,13 +37,26 @@ flatmate2_days_stayed = int(input(f"Input Days Stayed by {flatmate2_name} in Apa
 total_bill = float(input("Enter Total Bill: "))
 ```
 This would output to the user as the Follwing (With Mock Answers)
-```python
+```
 Input a Period (Month/Year): December 2021
 Input Name of Flatmate 1: Joe
 Input Days Stayed by Joe in Apartment: 20
 Input Name of Flatmate 2: Stan
 Input Days Stayed by Joe in Apartment: 25
 Enter Total Bill: 10,000
+```
+<br/>
+Then, we would instantiate an instance of the classes within the code as following:
+```python
+# Create Instances with Data
+
+bill = Bill(total_bill, period)
+flatmate1 = Flatmate(name=flatmate1_name, days=flatmate1_days_stayed)
+flatmate2 = Flatmate(name=flatmate2_name, days=flatmate2_days_stayed)
+
+# Generate PDF Report
+pdf_report = PDFReport(f"{bill.period}.pdf")
+pdf_report.generate_pdf(flatmate1, flatmate2, bill)
 ```
 
 
