@@ -37,7 +37,7 @@ flatmate2_days_stayed = int(input(f"Input Days Stayed by {flatmate2_name} in Apa
 total_bill = float(input("Enter Total Bill: "))
 ```
 This would output to the user as the Follwing (With Mock Answers)
-'''python
+```python
 Input a Period (Month/Year): December 2021
 Input Name of Flatmate 1: Joe
 Input Days Stayed by Joe in Apartment: 20
