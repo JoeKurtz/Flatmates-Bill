@@ -60,7 +60,7 @@ pdf_report.generate_pdf(flatmate1, flatmate2, bill)
 ```
 
 ## PDF Report
-Upon the user inputting the total bill, each flatmates' individual bill iscalculated, and a PDF report, title "{Month Year}.pdf" is autoamtically shown to the user, and saved to the users files under files/Reports
+Upon the user inputting the total bill, each flatmates' individual bill iscalculated, and a PDF report, title **"{Month Year}.pdf"** is autoamtically shown to the user, and saved to the users files under *files/Reports*
 <br/>
 <br/>
 
