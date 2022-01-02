@@ -47,9 +47,9 @@ Enter Total Bill: 10,000
 ```
 <br/>
 Then, we would instantiate an instance of the classes within the code as following:
+
 ```python
 # Create Instances with Data
-
 bill = Bill(total_bill, period)
 flatmate1 = Flatmate(name=flatmate1_name, days=flatmate1_days_stayed)
 flatmate2 = Flatmate(name=flatmate2_name, days=flatmate2_days_stayed)
@@ -59,6 +59,8 @@ pdf_report = PDFReport(f"{bill.period}.pdf")
 pdf_report.generate_pdf(flatmate1, flatmate2, bill)
 ```
 
-
 ## PDF Report
+Upon the user inputting the total bill, each flatmates' individual bill iscalculated, and a PDF report, title "{Month Year}.pdf" is autoamtically shown to the user, and saved to the users files under files/Reports
+<br/>
+A sample PDF would look as follows:
 ![December 2021 Report](files/Inserts/December2021.png)
