@@ -29,4 +29,4 @@ total_f2 = 5,555.56
 ```
 
 ## PDF Report
-![December 2021 Report](files/inserts/December2021.png)
+![December 2021 Report](files/Inserts/December2021.png)
